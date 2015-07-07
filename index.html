@@ -22,7 +22,17 @@
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap Support Values for Genome Distances.</h3>
 
-<p>Foo bar bla bla.</p>
+<p><b>Abstract:</b> We have recently developed and implemented a distance for efficiently estimating the number of
+substitutions per site between unaligned genome sequences. These substitution rates are called
+“anchor distances” and can be used for phylogeny reconstruction. Most phylogenies come with
+bootstrap support values, which are computed by resampling with replacement columns of homolo-
+gous residues from the original alignment. Unfortunately, this method cannot be applied to anchor
+distances, as they are based on approximate pairwise local alignments rather than the full multiple
+sequence alignment necessary for the classical bootstrap. As an alternative, we propose to boot-
+strap pairs of genomes by resampling with replacement the local alignments on which the original
+anchor distance is based. In this paper we present an implementation of this idea and demonstrate
+its usefulness by comparing it to alignment-based bootstrap when applied to simulated and real
+genome samples.</p>
 
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Sets.</h3>
